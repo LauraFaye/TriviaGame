@@ -38,39 +38,39 @@
             <div class="col-lg-6">
                 <div class="row">
                     <h3 class="col-lg-12">Did Kurt Vonnegut write "Welcome to the Monkey House"?</h3>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="inlineRadiobutton1" value="True">
-                        <label class="form-check-label" for="inlineRadiobutton1">True</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="inlineRadiobutton2" value="False">
-                        <label class="form-check-label" for="inlineRadiobutton2">False</label>
-
-                    </div>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary active">
+                          <input type="radio" name="question1" id="vonnegut1" value="true" > True
+                        </label>
+                        <label class="btn btn-primary">
+                          <input type="radio" name="question1" id="vonnegut2" value="false"> False
+                        </label>
+                      </div>
 
                 </div>
                 <div class="row">
                     <h3 class="col-lg-12">Did Joan Didion write "The Stand"?</h3>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="inlineRadiobutton1" value="True">
-                        <label class="form-check-label" for="inlineRadiobutton1">True</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="inlineRadiobutton2" value="False">
-                        <label class="form-check-label" for="inlineRadiobutton2">False</label>
-
-                    </div>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary active">
+                          <input type="radio" name="question2" id="didion1" value="true" > True
+                        </label>
+                        <label class="btn btn-primary">
+                          <input type="radio" name="question2" id="didion2" value="false"> False
+                        </label>
+                      </div>
 
                 </div>
 
             </div>
 
             <button type="button" id="Submit" class="btn btn-primary">Submit</button>
+            
         </div>
         
         <div id="score">
             <p>Correct:</p>
             <p>Incorrect:</p>
+            
         </div>
 
 
@@ -82,6 +82,6 @@
 
 </body>
 
-
+<!-- <p><input type="button" value="Get Value"></p> -->
 
 </html>
